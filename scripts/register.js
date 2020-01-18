@@ -12,19 +12,18 @@ function register() {
     let phoneCorrectFormat = false;
 
     if (myRegex.test(newPassword)) {
-        strongPassword == true;
+        strongPassword = true;
     } else {
         alert("Password is too weak");
     }
 
-    if ((newNumber.length == 11) && (!isNaN(newNumber))) {
+    if (newNumber.length == 11 && !isNaN(newNumber)) {
         phoneCorrectFormat = true;
-
     } else {
         alert("Please check your phone number");
     }
 
-    if ((strongPassword) && (phoneCorrectFormat)) {
+    if (strongPassword && phoneCorrectFormat) {
         let newAccount = {
             firstname: newFirstName,
             lastname: newLastName,
@@ -38,6 +37,4 @@ function register() {
     } else {
         alert("Failed to register account");
     }
-    console.log(strongPassword);
-    console.log(phoneCorrectFormat);
 }

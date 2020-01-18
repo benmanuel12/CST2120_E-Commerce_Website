@@ -20,7 +20,7 @@
                 Email: <br>
                 <input id="email" type="email" name="email"><br> <br> Password: <br>
                 <input id="password" type="password" name="password"><br>
-                <button type="button">Sign In</button>
+                <button type="button" onclick="signin()">Sign In</button>
             </form>
         </div>
     </div>
