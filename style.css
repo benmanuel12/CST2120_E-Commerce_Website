@@ -1,0 +1,61 @@
+    #signin,
+    #register {
+        background-color: black;
+        font-family: sans-serif;
+        font-size: 20px;
+        background-image: url('bg_image.jpg');
+        background-size: cover;
+    }
+    
+    #signin>#mainbody {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: tomato;
+        margin: 100px;
+        border-radius: 25px;
+    }
+    
+    #register>#mainbody {
+        background-color: tomato;
+        margin: 100px;
+        border-radius: 25px;
+    }
+    
+    #signin>#mainbody>div,
+    #register>#mainbody>#mainpanel {
+        margin: 10px;
+        height: 450px;
+    }
+    
+    #signin>#mainbody>#leftpanel {
+        text-align: center;
+        line-height: 400px;
+        margin-top: 10px;
+    }
+    
+    #signin>#mainbody>#rightpanel>form,
+    #register>#mainbody>#mainpanel>form {
+        margin-top: 50px;
+    }
+    
+    #signin>#mainbody>#leftpanel>#registerlinkbutton {
+        display: inline-block;
+        font-weight: bold;
+    }
+    
+    input[type=text],
+    input[type=password],
+    input[type=email],
+    input[type=tel] {
+        width: 60%;
+        padding: 10px;
+        -moz-box-shadow: 0 0 5px #888;
+        -webkit-box-shadow: 0 0 5px#888;
+        box-shadow: 0 0 5px #888;
+    }
+    
+    #signin>#mainbody>#rightpanel>#title,
+    #register>#mainbody>#mainpanel>#title {
+        text-align: center;
+        font-weight: bold;
+    }
