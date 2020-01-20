@@ -7,19 +7,15 @@
     #signin>#mainbody {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        background-color: #d71821;
-        margin: 100px;
-        border-radius: 25px;
     }
     
-    #register>#mainbody {
+    #mainbody {
         background-color: #d71821;
         margin: 100px;
-        border-radius: 25px;
+        border-radius: 5px;
     }
     
-    #signin>#mainbody>div,
-    #register>#mainbody>#mainpanel {
+    #mainbody>div {
         margin: 10px;
     }
     
@@ -29,33 +25,12 @@
         margin-top: 10px;
     }
     
-    #signin>#mainbody>#rightpanel>form,
-    #register>#mainbody>#mainpanel {
+    form {
         margin-top: 50px;
+        padding-bottom: 10px;
     }
     
-    #gridsplitter {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 50px;
-    }
-    
-    #register>#mainbody>#mainpanel>#leftpanel {
-        flex: 0 0 65%;
-        padding-left: 200px;
-    }
-    
-    #register>#mainbody>#mainpanel>#rightpanel {
-        flex: 1;
-    }
-    
-    #signin>#mainbody>#leftpanel>#registerlinkbutton {
-        display: inline-block;
-        font-weight: bold;
-    }
-    
-    #signin>#mainbody>#rightpanel>#title,
-    #register>#mainbody>#mainpanel>#title {
+    #title {
         text-align: center;
         font-weight: bold;
         padding-top: 10px;

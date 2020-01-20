@@ -4,7 +4,7 @@ function register() {
     let newEmail = document.getElementById('email').value;
     let newPassword = document.getElementById('password').value;
     let newAddress = document.getElementById('address').value;
-    let newNumber = document.getElementById('number').value;
+    let newNumber = document.getElementById('telephone').value;
 
     let myRegex = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})");
 
