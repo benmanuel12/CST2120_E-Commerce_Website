@@ -1,0 +1,12 @@
+#logoutbuttonwrapper {
+    float: right;
+}
+
+#logoutbutton {
+    font-weight: bold;
+}
+
+#indexheading,
+p {
+    margin: 20px;
+}
